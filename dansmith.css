@@ -1,0 +1,272 @@
+/*
+Theme Name: Super 
+Theme URI: http://dansmithwill.com
+Description: Dan Smith Will
+Version: 2 (WP2.6.2)
+Author: Dan Smith
+Author URI: 
+Tags: 
+*/
+
+/*******************RESET CSS*******************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, cite, font, img, small, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: middle;background: transparent;}
+ol, ul {
+    list-style: none;
+    }
+table {
+    border-collapse: collapse; border-spacing: 0;
+    }
+legend {
+    display: none;
+    }
+/****************END RESET********************/
+
+/****************Global Elements**************/
+body { 
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans serif; color: #000;
+    }
+h1#logo { 
+    float: left; 
+    }
+h1#logo a { 
+    display: block; 
+    background: url("images/logo.png") no-repeat; 
+    width: 120px; 
+    height: 120px; 
+    text-indent: -9999em; 
+    }
+
+h1#logo a:hover { 
+    opacity: 0.6; 
+    }
+
+h2 { 
+    color: #000; font-size: 20px; 
+    }
+h3 { 
+    color: #666; font-size: 16px; 
+    }
+h4 { 
+    color: #666; font-size: 14px; 
+}
+p { 
+    margin: 0 0 0px 0;
+    }
+a { 
+    color: #F00; 
+    }
+a:hover { 
+    text-decoration: line-through; 
+    }
+textarea { 
+    font-size: 50px; 
+    font-family: Impact, "Impact", Arial Black, "Arial Black", Helvetica, Arial, sans_serif; 
+    border: 0; border-bottom: 2px solid #000; 
+    color: #000; 
+    padding: 3px 3px 2px 3px; 
+    width: 294px; 
+    }
+select {  
+    width: 183px; 
+    padding: 2px; 
+    }
+td { 
+    padding: 4px 0; 
+    }
+ol  { 
+    list-style: decimal; 
+    }
+::-moz-selection{
+    background:#000; color:#fff;
+    }
+::selection {
+    background:#000; color:#fff;
+    }
+/****************End Global Elements**********/
+
+/****************Classes**************/
+.right { 
+    float: right; 
+    padding: 0 0 20px 20px;
+    }
+.left { float: left; padding: 0 20px 20px 0;}
+.clear { clear: both; height: 0; }
+.hide { display: none; }
+.last { margin-right: 0; padding-right: 0; border-right: none; }
+.selected { 
+    color: #999; 
+    }
+/****************End Clasees**************/
+
+/****************Structure*********************/
+#container { 
+    text-align: left; 
+    position: relative; 
+    }
+#header { 
+    float: left; 
+    width: 100%; 
+    }
+
+#commentform { 
+    position: fixed; 
+    top: 20px; 
+    left: 20px; 
+    padding: 20px 20px 230px 20px; 
+    width: 300px; text-align: center; 
+    background: url("dansmith_sm.jpg") no-repeat 0 100%; 
+    border: 7px solid #000; 
+    font-size: 50px; 
+    font-family: Impact, "Impact", Arial Black, "Arial Black", Helvetica, Arial, sans_serif; 
+    }
+#submit { 
+    position: absolute; 
+    bottom: 30px; 
+    right: 20px; 
+    }
+#dan-smith-will { 
+    margin-left: 500px; 
+    margin-top: 20px; 
+    }
+#dan-smith-will li { 
+    padding: 20px 20px 400px 20px; 
+    width: 400px; text-align: center; 
+    background: url("./dansmith.jpg") no-repeat 0 100%; 
+    border: 7px solid #000; 
+    font-size: 50px; 
+    font-family: Impact, "Impact", Arial Black, "Arial Black", Helvetica, Arial, sans_serif; 
+    margin-bottom: 25px; 
+    position: relative;  
+    }
+#dan-smith-will li .rating { 
+    font-size: 16px; 
+    position: absolute; 
+    bottom: 302px; 
+    right: 20px; 
+    width: 200px; }
+
+.navigation { 
+    width: 100%; 
+    position: fixed; 
+    bottom: 0; 
+    background: #222; 
+    padding: 6px; 
+    text-align: center; 
+    color: #fff; 
+    }
+.navigation a { 
+    color: #fff; 
+    text-decoration: none; 
+    }
+
+#share { 
+    position: fixed; 
+    top: 450px; 
+    left: 20px; 
+    width: 300px; 
+    }
+#share li { 
+    float: left; 
+    margin-right: 15px; 
+    width: 67px; 
+    overflow: hidden; 
+    }
+#submit { 
+    width: 40px; 
+    }
+
+#about { 
+    position: absolute; 
+    top: -20px; 
+    left: 0; 
+    background: #000; 
+    color: #fff; 
+    font-size: 14px; 
+    padding: 20px 0 0 20px; 
+    width: 100%; 
+    height: 100%; 
+    display: none; 
+    }
+#about #close { 
+    position: absolute; 
+    top: 40px; 
+    right: 40px; 
+    color: red; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    }
+#about img { 
+    float: left; 
+    padding: 0 20px 20px 0; 
+    }
+#about p { 
+    margin-bottom: 17px; 
+    width: 400px; 
+    }
+#about p#first-shit { 
+    width: auto; 
+    }
+
+#nav { 
+    float: right; 
+    clear: right; 
+    }
+#nav li { 
+    float: left; 
+    }
+#nav li a { 
+    display: block; 
+    float: left; 
+    }
+.one-col #main { 
+    width: 100%; 
+    }
+#main{ width: 650px; 
+    float: left; 
+    margin-right: 20px; 
+    }
+#sidebar{ 
+    width: 250px; 
+    float: right; 
+    }
+#footer { 
+    clear: both;  
+    position: fixed; 
+    bottom: 0; right: 0; 
+    z-index: 2; width: 170px; 
+    padding: 6px 10px; 
+    color: #fff; 
+    font-weight: bold; 
+    }
+#footer ul { 
+    float: left; 
+    }
+#footer li { 
+    float: left; 
+    /*margin-right: 20px; padding-right: 20px; border-right: 1px solid red;*/  
+    }
+#footer li.last { 
+    border-right: none; 
+    margin-right: 0; 
+    padding-right: 0;
+    }
+#footer a { 
+    color: #fff; 
+    font-weight: bold; 
+    }
+#footer a:hover { 
+    text-decoration: line-through; 
+    } 
+#footer a:hover { }
+#footer #copyright { 
+    float: right; 
+    }
+/****************End Structure******************/
+
+/****************Pages*********************/
+
+/****************End Pages*********************/
+
+/****************Plugins*********************/
+
+/****************End Plugins*********************/
